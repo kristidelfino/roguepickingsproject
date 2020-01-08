@@ -1,0 +1,134 @@
+/*** BASE STYLES ***/
+
+html {
+    margin: 10px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+body a {
+    text-decoration: none;
+    color: #77A466;
+}
+
+#menu, #reviews, #contact {
+    height: 200px;
+}
+
+/*** GRID ***/
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width {
+    width: 31%;
+    margin: 0 auto;
+    float: left;
+}
+
+/*** HEADER ***/
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header #rogue {
+    color: #77A466;
+}
+
+nav {
+    float: right;
+    padding-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-left: 20px; 
+}
+
+header img {
+    border: 3px solid #77A466;
+    width: 100%;
+    max-height: 400px;
+}
+
+/*** MAIN ***/
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #77A466;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+/*** about ***/
+
+#about p {
+    font-size: 20px;
+}
+
+/*** menu ***/
+ #menu {
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+ }
+
+
+
+/*** reviews ***/
+#reviews {
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 0 20px 0 20px;
+ }
+
+
+/*** contact ***/
+#contact {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 0 20px 0 20px;
+ }
+
+/*** FOOTER ***/
+footer {
+    clear: both;
+    padding-top: 15px;
+    
+}
+
+footer #footer {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+footer #fresh {
+    color: #77A466;
+    font-family: cursive;
+}
